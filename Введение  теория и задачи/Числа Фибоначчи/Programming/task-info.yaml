@@ -1,0 +1,21 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def fib(n):
+        # put your code here
+
+    def main():
+        n = int(input())
+        print(fib(n))
+
+
+    if __name__ == "__main__":
+        main()
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 25 Jul 2022 12:52:55 UTC
+record: -1

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: $n^2/\log_4{n}=\Theta(n(\log_3{n})^2)$
+- text: $10\log_2{n}=\Omega((\log_2{n})^2)$
+- text: $n!=\Omega(2^n)$
+- text: $n!=O(2^n)$
+- text: $n2^n=\Omega(3^n)$
+- text: $n^{1/2}=O(5^{\log_2{n}})$
+- text: $2^n=\Theta(2^{n+1})$
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Quiz

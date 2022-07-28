@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Детьми вершины $i$ являются вершины $\{(i-1)d+2, \ldots, (i-1)d+d+1\}$.
+- text: Родителем вершины $i$ является вершина $\lceil (i-1)/d \rceil$.
+- text: Высота есть $\Theta(\log_dn)$.
+- text: Высота есть $\Theta(d\log n)$.
+- text: Детьми вершины $i$ являются вершины $\{(i-1)d+2, \ldots, \min\{n, (i-1)d+d+1\}\}$.
+- text: Родителем вершины $i$ является вершина $\lceil (i+1)/d \rceil$.
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Quiz

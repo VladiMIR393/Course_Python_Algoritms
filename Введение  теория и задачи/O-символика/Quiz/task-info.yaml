@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: $\log_{10}(n^2)=2\log_{10}n$
+- text: $2^{\log_2n}=n$
+- text: $\log_3(2n)=\log_32+\log_3n$
+- text: $n^{\log_37}=7^{\log_3n}$
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Unchecked
+record: -1

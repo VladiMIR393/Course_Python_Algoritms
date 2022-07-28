@@ -1,0 +1,23 @@
+type: code
+custom_name: Programming
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def fib_mod(n, m):
+        ...
+
+
+    def main():
+        n, m = map(int, input().split())
+        print(fib_mod(n, m))
+
+
+    if __name__ == "__main__":
+        main()
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 27 Jul 2022 23:37:51 UTC
+record: -1

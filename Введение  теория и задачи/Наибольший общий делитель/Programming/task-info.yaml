@@ -1,0 +1,19 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def gcd(a, b):
+        ...
+
+
+    def main():
+        a, b = map(int, input().split())
+        print(gcd(a, b))
+
+
+    if __name__ == "__main__":
+        main()
+  learner_created: false
+status: Unchecked
+record: -1
